@@ -1,2 +1,2 @@
 # InviTours
-Discover some beautiful destinations and book your next tour!
+Adventurous ? Discover some beautiful places and book your next tour!
