@@ -1,12 +1,17 @@
 var express = require('express');
 var router = express.Router();
 const userController = require('../controllers/userController');
+const authController = require('../controllers/authController');
 
 
 /* GET users listing. */
 // router.get('/', function(req, res, next) {
 //   res.send('respond with a resource');
 // });
+
+// Route for user signup 
+router.post('/signup', authController.signup);
+
 
 
 // Routes for users
