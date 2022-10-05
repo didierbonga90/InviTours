@@ -130,13 +130,5 @@
             "2023-05-26,10:00",
             "2023-05-30,10:00"
         ]
-    },
-    {
-        "id": 6,
-        "name": "Essai",
-        "duration": 6,
-        "maxGroupSize": 15,
-        "ratingsAverage": 4.4,
-        "price": 297
     }
 ]

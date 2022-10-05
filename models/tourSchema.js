@@ -25,16 +25,23 @@ var tourSchema = new mongoose.Schema({
         type: Number,
         default: 4.5
     },
+    ratingsQuantity: {
+        type: Number,
+        default: 0
+    },
     price: {
         type: Number,
         required: [true, 'A tour must have a price']
     },
+    priceDiscount: Number,
+    summary: {
+        type: String,
+        trim: true,
+        required: [true, 'This tour must have a description']
+    },
     description: {
         type: String,
         trim: true
-    },
-    summary: {
-        type: String
     },
     imageCover: {
         type: String,
